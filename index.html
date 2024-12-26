@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid Richards - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Khalid Richards</h1>
+        <p>Software Engineer, Community Organizer, Game Designer, Rugger, Baker</p>
+    </header>
+    
+    <main>
+        <section id="about">
+            <img src="profile-pic.jpg" alt="Your Name" class="profile-pic">
+            <p>Welcome to my slice of the internet! During the day, I'm an experienced backend software engineer (ex-Google, ex-IBM) located in Brooklyn, NY.
+                 Here, you can learn more about my work, current projects, and connect with me. Additionally, you can check out some of my
+                 <a href="http://www.flatbushmixtape.org">community organizing</a>, game development, and baking work.</p>
+        </section>
+
+        <section id="projects">
+            <h2>What I'm Up To</h2>
+            <div class="project dark" onclick="toggleProject(this)">
+                <h3>Etherverse Card Game</h3>
+                <div class="project-details">
+                    <p>I've been an avid gamer since childhood. I especially have a love of tabletop games, which I find blend
+                        social and competitive dynamics pretty well. Card games hold a special place in my heart. I was a huge fan of
+                        Yu-Gi-Oh! as a child and am a big Magic: the Gathering fan now. This experience with card games led me to design
+                        my own. Etherverse is a tactical card game that blends some of the charm of Magic: the Gathering with a bit of
+                        the spatial strategy of minis. I'm currently accepting folks to help playtest the game and give feedback!
+                        <b>Website coming soon!</b>
+                    </p>
+                </div>
+            </div>
+            <div class="project light" onclick="toggleProject(this)">
+                <h3>Flatbush Mixtape (Come Organize With Us!)</h3>
+                <div class="project-details">
+                    <p><a href="http://www.flatbushmixtape.org">Flatbush Mixtape</a> is {TODO: write shorter summary of Mixtape}. I currently serve as <b>Volunteer Coordinator</b>,
+                    helping mobilize neighbors to assist in our community efforts like food distributions.</p>
+                </div>
+            </div>
+            <div class="project dark" onclick="toggleProject(this)">
+                <h3>[Re-]Learning Math!</h3>
+                <div class="project-details">
+                    <p>Mathematics is a longtime love of mine. I've been away from it too long, and I've decided to go back to basics,
+                        reteach myself some basics (calculus, linear algebra, etc.), and then explore more complex topics. I'm currently
+                        re-learning probability, following Sheldon Ross's <i>A First Course in Probability</i>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>Want to talk professional opportunities?</h2>
+            I'm always receptive to conversations around new professional opportunities. Currently, I'm looking for
+            <b>senior software engineering opportunities</b> (preferably backend focused). I personally prefer remote work, but am open to hybrid in NYC.
+            Feel free to <a href="my-resume.pdf" download>download my resume</a> and shoot me an email to get a conversation started!
+        </section>
+
+        <section id="contact">
+            <h2>Connect With Me</h2>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/khalidrichards" target="_blank">
+                    <img src="linkedin-logo.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/khalidrichards" target="_blank">
+                    <img src="github-logo.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/khalidrich" target="_blank">
+                    <img src="instagram-logo.png" alt="Instagram">
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Khalid Richards</p>
+    </footer>
+    <script src="functionality.js"></script>
+</body>
+</html>
